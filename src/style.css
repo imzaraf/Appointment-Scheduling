@@ -1,0 +1,48 @@
+.d-flex input{
+    margin: .9em 0em;
+}
+
+.container table{
+    margin: .1em .3em;
+
+    margin-top: 10em;
+}
+
+table .btnedit {
+    color: lightgreen;
+    cursor: pointer;
+}
+table .btndeleteicon {
+    color: tomato;
+    cursor: pointer;
+}
+
+.d-flex button{
+    margin: 1.5em 1em;
+
+    padding: .3em 2.4em;
+
+}
+
+
+
+.insMsg,
+.updMsg,
+.delMsg{
+    position: absolute;
+    top: -40%;
+}
+
+.movedown{
+   
+    animation: slideup 5s ease;
+}
+
+@keyframes slideup{
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: -40%;
+    }
+}
